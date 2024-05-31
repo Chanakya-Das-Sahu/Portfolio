@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Chanakya Das Sahu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .round {
+            border-radius: 10px;
+        }
+
+        img.round {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .round:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .contact-info div,
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        li {
+            background: rgba(255, 255, 255, 0.2);
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            flex: 1 1 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        li:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        .fa {
+            margin-right: 10px;
+        }
+
+        .skills-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills-icons div {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .skills-icons i {
+            font-size: 2em;
+            margin-right: 10px;
+        }
+        
+        ul a{
+         text-decoration:none;
+         color:white;
+        }
+        
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="../Photos/Chanakya.jpg" alt="Profile Picture" class="profile-image">
+            <h1>Chanakya Das Sahu</h1>
+            <p>B.Tech 5th Semester, Computer Science and Engineering, MATS University</p>
+        </header>
+
+        <div class="contact-info">
+            <div><i class="fa fa-phone"></i> 9399553896</div>
+            <div><i class="fa fa-envelope"></i> <a href="mailto:ccccsahu@gmail.com">ccccsahu@gmail.com</a></div>
+            <div>
+                <a href="https://github.com/chanakya-das-sahu"><i class="fab fa-github"></i> GitHub</a> |
+                <a href="https://www.linkedin.com/in/chanakya-das-sahu-a56470252"><i class="fab fa-linkedin"></i>
+                    LinkedIn</a>
+            </div>
+        </div>
+
+        <section>
+            <h2>About</h2>
+            <h1>My expertise is in MERN stack web development.</h1>
+            <p>I have been good in Effective communication, Group Discussion, Idea Pitching, Presentation</p>
+        </section>
+
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li><i class="fa fa-trophy"></i> Selected in TGC Hackathon organized by Ministry of Education (Govt of
+                    India)</li>
+                <li><i class="fa fa-trophy"></i> 1st rank certificate by CEO of CREDA (Chhattisgarh Renewable Energy
+                    Development Agency)( in Poster Making )</li>
+                <li><i class="fa fa-trophy"></i> 2nd rank certificate by Mr. Omprakash Choudhari (Finance Minister C.G.)
+                    in Video Editing & Designing</li>
+            </ul>
+        </section>
+        <img src="../Photos/Poster Making.jpg" width="600px" height="300px" class="round" alt="Poster Making">
+        <p>Mr. Rana Sir ( IAS Officer & CEO of CREDA )</p>
+        <p>( Chhattisgarh Renewable Energy Development Agency )</p>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-icons">
+                <div><i class="fab fa-react"></i>React.js</div>
+                <div><i class="fab fa-node-js"></i>Node.js</div>
+                <div><i class="fab fa-js-square"></i>JavaScript</div>
+                <div><i class="fas fa-database"></i>MongoDB</div>
+                <div><i class="fab fa-git"></i>Git</div>
+                <div><i class="fab fa-github"></i>GitHub</div>
+                <div><i class="fab fa-java"></i>Java</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <a><li><i class="fa fa-book"></i> Diary / Notes Application</li></a>
+                <a><li><i class="fa fa-shopping-cart"></i> Ecommerce Application (ongoing)</li></a>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Proficiencies</h2>
+           <p>Hindi   ( Native )   ★★★★★</p>
+           <p>English ( Proficient )    ★★★☆☆</p>
+        </section>
+       
+        <section>
+            <h2>Academics</h2>
+            <br>
+            <ul>
+                <a href="../HTML files/academic_credentials.html"><li>Academic Certificates</li></a>
+                <a href="../HTML files/cultural_credentials.html"><li>Cultural Certificates</li></a>
+            </ul>
+             
+             
+        </section>
+        
+
+        <footer>
+            <p>&copy; 2024 Chanakya Das Sahu</p>
+        </footer>
+    </div>
+</body>
+
+</html>
